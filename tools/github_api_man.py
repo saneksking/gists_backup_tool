@@ -28,7 +28,7 @@ class GitHubAPI:
         return {'Authorization': f'token {f"{self._token}"}'}
 
     def get_gists_names(self):
-        repos = []
+        gists = []
         page = 1
         per_page = 100
 
@@ -40,6 +40,6 @@ class GitHubAPI:
             if not page_gists:
                 break
 
-            repos.extend(page_gists)
+            gists.extend(page_gists)
             page += 1
-        return repos
+        return gists
