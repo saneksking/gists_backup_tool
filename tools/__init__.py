@@ -6,3 +6,4 @@
 # --------------------------------------------------------
 # https://github.com/smartlegionlab
 # --------------------------------------------------------
+"""Gists Backup Tool - Console app for download your GitHub gists."""
